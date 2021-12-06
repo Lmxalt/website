@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.n {
+    margin: 0 auto;
+    height: 100%;
+    }
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header{
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    height: 100%;
+    display:flex;
+
+    align-items: center;
+}
+.logo img{
+    height: 70%;
+}
+
+.navig {
+    float: right;
+    height: 100%;
+}
+
+.navig li{
+   
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navig span:last-child{
+    padding-right: 0;
+}
+
+.navig span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+
+a:visited {
+    color: white; /* Цвет посещенной ссылки */
+   }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+
+    width: 100%;
+    height: 100%;
+    ;
+}
+.cont_main{
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    }
+
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    flex-basis: 750px;
+    text-align:center;
+    margin: auto;
+}
+
+.welcome {
+    height: 150px;
+    align-items: center;
+    display: flex;
+    
+}
+.welcome h1{
+    margin: auto;
+}
+
+.knowledge {
+    text-align: center;
+    height: 150px;
+    vertical-align: 50px;
+}    
+
+.footer {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: #2c2c2c;
+    
+}
+.footer h2{
+    margin: auto;
+}
